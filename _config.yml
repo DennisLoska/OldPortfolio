@@ -1,4 +1,18 @@
-baseurl:
-
-# The URL of your actual domain. This will be used to make absolute links in the RSS feed.
-url: https://dennistalmid.github.io
+name: Dennis Loska
+encoding: UTF-8
+serverencoding: UTF-8
+highlighter: rouge
+baseurl: /
+excerpt_separator: ""
+production_url : https://dennistalmid.github.io/
+title: Dennis Loska
+author:
+  name: Dennis Loska
+  email: d.loska@hotmail.de
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      author: loska
+      layout: "default"
