@@ -2,7 +2,8 @@ name: Dennis Loska
 encoding: UTF-8
 serverencoding: UTF-8
 highlighter: rouge
-baseurl: /
+markdown: kramdown
+baseurl: ""
 excerpt_separator: ""
 production_url : https://dennistalmid.github.io/
 title: Dennis Loska
