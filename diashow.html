@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>My first Website</title>
+    <link rel="stylesheet" href="css/diashow.css">
+    <script src="js/diashow.js"></script>
+</head>
+
+<body>
+    <main>
+        <div class="row">
+            <div class="column">
+                <img src="img/first.png" onclick="openModal();currentSlide(1)" class="hover-shadow">
+            </div>
+            <div class="column">
+                <img src="img/first2.png" onclick="openModal();currentSlide(2)" class="hover-shadow">
+            </div>
+            <div class="column">
+                <img src="img/first3.png" onclick="openModal();currentSlide(3)" class="hover-shadow">
+            </div>
+        </div>
+
+        <div id="myModal" class="modal">
+            <span class="close cursor" onclick="closeModal()"><a href="index.html">&times;</a></span>
+            <div class="modal-content">
+
+                <div class="mySlides">
+                    <div class="numbertext">1 / 4</div>
+                    <img src="img/first.png" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">2 / 4</div>
+                    <img src="img/first2.png" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">3 / 4</div>
+                    <img src="img/first3.png" style="width:100%">
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                <div class="caption-container">
+                    <p id="caption"></p>
+                </div>
+
+                <div class="column">
+                    <img class="demo" src="img/first.png" onclick="currentSlide(1)" alt="landing page">
+                </div>
+
+                <div class="column">
+                    <img class="demo" src="img/first2.png" onclick="currentSlide(2)" alt="core message">
+                </div>
+
+                <div class="column">
+                    <img class="demo" src="img/first3.png" onclick="currentSlide(3)" alt="opinion about tech">
+                </div>
+            </div>
+        </div>
+
+    </main>
+</body>
+
+</html>
