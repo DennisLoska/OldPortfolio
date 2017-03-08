@@ -314,6 +314,14 @@ footer button.tumblr {
     cursor: pointer;
 }
 
+footer button.codepen {
+    background-image: url(/img/Button-Black-Large.png);
+    border-radius: 50%;
+    background-size: contain;
+    background-color: transparent;
+    cursor: pointer;
+}
+
 footer button:hover {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
