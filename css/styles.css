@@ -300,9 +300,22 @@
 
 footer button.github {
     background-image: url(/img/GitHub-Mark-Light-120px-plus.png);
+    border-radius: 50%;
     background-size: contain;
     background-color: transparent;
     cursor: pointer;
+}
+
+footer button.tumblr {
+    background-image: url(/img/tumblr-logo-whiteonblue-512.png);
+    border-radius: 50%;
+    background-size: contain;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+footer button:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 footer form {
