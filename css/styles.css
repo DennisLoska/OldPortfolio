@@ -298,28 +298,25 @@
     }
 */
 
-footer button.github {
-    background-image: url(/img/GitHub-Mark-Light-120px-plus.png);
+footer button {
     border-radius: 50%;
     background-size: contain;
     background-color: transparent;
     cursor: pointer;
+}
+
+footer button.github {
+    background-image: url(/img/GitHub-Mark-Light-120px-plus.png);
+    background-color: black;
 }
 
 footer button.tumblr {
     background-image: url(/img/tumblr-logo-whiteonblue-512.png);
-    border-radius: 50%;
-    background-size: contain;
-    background-color: transparent;
-    cursor: pointer;
 }
 
 footer button.codepen {
-    background-image: url(/img/Button-Black-Large.png);
-    border-radius: 50%;
-    background-size: contain;
-    background-color: transparent;
-    cursor: pointer;
+    background-image: url(/img/Button-White-Large.png);
+    background-color: black;
 }
 
 footer button:hover {
