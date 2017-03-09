@@ -1,10 +1,6 @@
-window.onload = function () {
-    openModal();
-    currentSlide(1);
-}
-
 function openModal() {
     document.getElementById('myModal').style.display = "block";
+    document.getElementsByClassName('mdl-layout__header mdl-layout__header--waterfall')[0].style.display = "none";
 }
 
 function closeModal() {
