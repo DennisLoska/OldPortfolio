@@ -346,13 +346,38 @@ img.article-image {
     text-decoration: none;
 }
 
-.headline {
-    padding: 5.4% 26% 5.4% 26%;
+.mdl-card__supporting-text {
+    width: 90%;
+    margin: auto;
 }
 
-.headline>h2 {
-    font-size: 3.6em;
+.headline {
+    padding: 3.4% 26% 3.4% 26%;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: -webkit-flex;
+    flex-direction: column;
     text-align: center;
+}
+
+.headline>h2,
+h3 {
+    font-size: 3.6em;
+    width: 100%;
+}
+
+.headline a {
+    margin-top: 13.05%;
+    margin-bottom: 13.05%;
+}
+
+.headline img {
+    height: 200px;
+}
+
+.cardHeadline {
+    width: 87%;
+    margin: auto;
 }
 
 .contactFormWrapper {
@@ -370,7 +395,7 @@ img.article-image {
 }
 
 .underline {
-    padding-bottom: 5%;
+    padding-bottom: 10.1%;
     padding-left: 2%;
 }
 
@@ -390,6 +415,12 @@ img.article-image {
 .formColumn {
     width: 50%;
     margin: 0 25% 0 25%;
+}
+
+.text {
+    width: 100%;
+    padding-top: 1.5%;
+    text-align: left;
 }
 
 
@@ -438,6 +469,14 @@ img.article-image {
     }
     .mdl-layout__tab-bar {
         display: none;
+    }
+    .cardHeadline {
+        width: 90%;
+        margin: auto;
+    }
+    .mdl-card__supporting-text {
+        width: 90%;
+        margin: auto;
     }
 }
 
