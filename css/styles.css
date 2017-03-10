@@ -200,8 +200,14 @@ img.article-image {
         font-size: 2.3em;
         text-align: center;
     }
+    .headline>h3 {
+        padding-top: 8.4%;
+    }
     .headline {
         padding: 5.4% 10% 5.4% 10%;
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
     }
     .contactForm>div {
         width: 90%;
