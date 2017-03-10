@@ -143,6 +143,14 @@ img.article-image {
     display: inline;
 }
 
+.impressumContent {
+    padding-bottom: 380px;
+}
+
+.impressumContent ul {
+    list-style-type: none;
+}
+
 
 /* Smartphone-Breakpoint */
 
@@ -204,19 +212,19 @@ img.article-image {
         padding-top: 8.4%;
     }
     .headline {
-        padding: 5.4% 10% 5.4% 10%;
+        padding: 5.4% 0 5.4% 0;
         width: 100%;
-        padding-left: 0;
-        padding-right: 0;
     }
-    .contactForm>div {
-        width: 90%;
-        margin: 0 5% 0 5%;
+    #fixed-tab-3 .headline>h2 {
+        width: 100%;
     }
     #fixed-tab-3 .mdl-grid .underlineContact {
         width: 100%;
         margin: auto;
     }
+    .impressumContent {
+    padding-bottom: 310px;
+}
 }
 
 
