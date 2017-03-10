@@ -28,7 +28,7 @@
                 <!-- Navigation. We hide it in small screens. -->
                 <nav class="mdl-navigation mdl-layout--large-screen-only">
                     <a class="mdl-navigation__link" href="index.html">Portfolio</a>
-                    <a class="mdl-navigation__link" href="https://techecke.tumblr.com/">Blog</a>
+                    <a class="mdl-navigation__link" target="_blank" href="https://techecke.tumblr.com/">Blog</a>
                     <a class="mdl-navigation__link" href="about.html">About</a>
                     <a class="mdl-navigation__link" href="contact.html">Contact</a>
                 </nav>
@@ -41,14 +41,15 @@
         </header>
 
         <div class="mdl-layout__drawer">
-            <span class="mdl-layout-title">Keep coding!</span>
+            <span class="mdl-layout-title">Navigation</span>
             <nav class="mdl-navigation">
                 <a class="mdl-navigation__link" href="index.html">Portfolio</a>
-                <a class="mdl-navigation__link" href="https://techecke.tumblr.com/">Blog</a>
+                <a class="mdl-navigation__link" target="_blank" href="https://techecke.tumblr.com/">Blog</a>
                 <a class="mdl-navigation__link" href="about.html">About</a>
                 <a class="mdl-navigation__link" href="contact.html">Contact</a>
             </nav>
         </div>
+
         <main class="mdl-layout__content">
             <div id="myModal" class="modal">
                 <span class="close cursor" onclick="closeModal()"><a href="index.html">&times;</a></span>
@@ -85,12 +86,14 @@
                 <div class="page-content">
                     <!-- Your content goes here -->
                     <div class="mdl-grid">
-                        <div class="mdl-cell mdl-cell--12-col">
+                        <div class="mdl-cell mdl-cell--3-col"></div>
+                        <div class="mdl-cell mdl-cell--6-col">
                             <div class="mdl-card__title headline">
                                 <h2 class="mdl-card__title-text">Hi, I'm Dennis. I love to create websites!</h2>
                                 <h3 class="mdl-card__title-text">Please take a look at my work!</h3>
                             </div>
                         </div>
+                        <div class="mdl-cell mdl-cell--3-col"></div>
                     </div>
                     <div class="mdl-grid portfolio-max-width">
                         <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card hover-shadow">
@@ -120,7 +123,7 @@
                                 This was a project during my first year at uniersity. The challenge was to create a website without any frameworks - just straight HTMl5 & CSS3. It was my first project, in which I learned how responsive design in general works. It is not the most beautiful Website, but gets the job done by using media-queries.
                             </div>
                             <div class="mdl-card__actions mdl-card--border">
-                                <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="https://dennistalmid.github.io/HTML5_GWP/">Take a look</a>
+                                <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" target="_blank" href="https://dennistalmid.github.io/HTML5_GWP/">Take a look</a>
                             </div>
                         </div>
                         <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card hover-shadow">
@@ -134,30 +137,34 @@
                                 This is a demo of a blog, which I created in order to get more familiar with frontend frameworks. I used Twitter's Bootstrap to layout the page with it's grid-system. Furthermore I used SASS to learn more advanced CSS techniques. It might not be the prettiest design, but I'm happy with it.
                             </div>
                             <div class="mdl-card__actions mdl-card--border">
-                                <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="https://dennistalmid.github.io/BootstrapSassProject/">Take a look</a>
+                                <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" target="_blank" href="https://dennistalmid.github.io/BootstrapSassProject/">Take a look</a>
                             </div>
                         </div>
                     </div>
                     <div class="mdl-grid">
-                        <div class="mdl-cell mdl-cell--12-col">
+                        <div class="mdl-cell mdl-cell--3-col"></div>
+                        <div class="mdl-cell mdl-cell--6-col">
                             <div class="mdl-card__title headline">
                                 <h2 class="mdl-card__title-text">In a nutshell</h2>
                                 <p class="text">I study International Media and Computing at the HTW Berlin since October 2016. My main fields of work and interest are web development and basic programming in Java. I'm looking for a job to work as a programer or web deveveloper (working student 20h/week at max). Feel free to contact me, if you think I'm the right guy for your team!</p>
                                 <p class="text">I feel confident to work with HTML, CSS, basic JS and clientside Java. On top of that I have some experience with frontend frameworks like Material Design Lite or Bootstrap. I'm also familiar with git and use Github for my personal and university projects, like this portfolio for example. Furthermore I'm interested to learn more about databases and CMS, since I want to be able to work at the backend as well.</p>
                             </div>
                         </div>
+                        <div class="mdl-cell mdl-cell--3-col"></div>
                     </div>
                 </div>
             </section>
             <section class="mdl-layout__tab-panel is-active" id="fixed-tab-2">
                 <div class="page-content">
                     <!-- Your content goes here -->
-                    <div class="mdl-grid">
-                        <div class="mdl-cell mdl-cell--12-col">
+                    <div class="mdl-grid firstGrid">
+                        <div class="mdl-cell mdl-cell--3-col"></div>
+                        <div class="mdl-cell mdl-cell--6-col">
                             <div class="mdl-card__title headline">
                                 <h2 class="mdl-card__title-text">Here are some more facts about me.</h2>
                             </div>
                         </div>
+                        <div class="mdl-cell mdl-cell--3-col"></div>
                     </div>
                     <div class="mdl-grid">
                         <div class="mdl-cell mdl-cell--3-col"></div>
@@ -166,7 +173,7 @@
                                 <h2 class="mdl-card__title-text">About</h2>
                             </div>
                             <div class="mdl-card__media">
-                                <img class="article-image" src="img/20160509_194303.jpg" alt="">
+                                <img class="article-image" src="img/portrait.jpg" alt="">
                             </div>
                             <div class="mdl-grid portfolio-copy">
                                 <h3 class="mdl-cell mdl-cell--12-col mdl-typography--headline cardHeadline">Introduction</h3>
@@ -192,24 +199,29 @@
             <section class="mdl-layout__tab-panel" id="fixed-tab-3">
                 <div class="page-content">
                     <!-- Your content goes here -->
-                    <div class="mdl-cell mdl-cell--12-col">
-                        <div class="mdl-card__title headline">
-                            <h2 class="mdl-card__title-text">Feel free to contact me anytime!</h2>
-                            <a href="mailto:d.loska@hotmail.de?Subject=Hello%20Dennis%20Loska" target="_top"><img src="img/letters-1132701_641.png" alt="letter-symbol" class="hover-shadow"></a>
+                    <div class="mdl-grid">
+                        <div class="mdl-cell mdl-cell--3-col"></div>
+                        <div class="mdl-cell mdl-cell--6-col">
+                            <div class="mdl-card__title headline">
+                                <h2 class="mdl-card__title-text">Feel free to contact me anytime!</h2>
+                                <div class="letterAnimation">
+                                    <a href="mailto:d.loska@hotmail.de?Subject=Hello%20Dennis%20Loska" target="_top"><img src="img/letters-1132701_641.png" alt="letter-symbol" class="hover-shadow"></a>
+                                </div>
 
+                            </div>
                         </div>
+                        <div class="mdl-cell mdl-cell--3-col"></div>
                     </div>
                     <div class="mdl-grid">
-                        <div class="mdl-cell mdl-cell--4-col"></div>
-                        <div class="mdl-cell mdl-cell--4-col formColumn">
-                            <div class="underline">
+                        <div class="mdl-cell mdl-cell--3-col"></div>
+                        <div class="mdl-cell mdl-cell--6-col">
+                            <div class="underlineContact">
                                 <p class="mdl-card__title-text">You can contact me via email: &nbsp; <a href="mailto:d.loska@hotmail.de?Subject=Hello%20Dennis%20Loska" target="_top">d.loska@hotmail.de</a></p>
                             </div>
                         </div>
-                        <div class="mdl-cell mdl-cell--4-col"></div>
+                        <div class="mdl-cell mdl-cell--3-col"></div>
                     </div>
                     <div class="mdl-cell mdl-cell--12-col">
-
                     </div>
                 </div>
             </section>
@@ -228,11 +240,9 @@
                     <form action="https://github.com/DennisTalmid" method="get">
                         <button class="mdl-mini-footer__social-btn github"></button>
                     </form>
-
                     <form action="https://techecke.tumblr.com/" method="get">
                         <button class="mdl-mini-footer__social-btn tumblr"></button>
                     </form>
-
                     <form action="https://codepen.io/Dennis_Loska/" method="get">
                         <button class="mdl-mini-footer__social-btn codepen"></button>
                     </form>
