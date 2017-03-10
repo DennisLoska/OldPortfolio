@@ -71,13 +71,13 @@ img.article-image {
     font-size: 3.6em;
     width: 96%;
     margin: auto;
-    text-align: center;
+    text-align: left;
 }
 
 .headline>h3 {
-    width: 96%;
     margin: auto;
-    text-align: center;
+    text-align: left;
+    width: 96%;
     padding-top: 0.4%;
 }
 
@@ -160,6 +160,53 @@ img.article-image {
 }
 
 
+/* Tablet-Breakpoint */
+
+@media only screen and (max-width: 1025px) {
+    .headline>h2 {
+        font-size: 2.3em;
+        text-align: center;
+        width: auto;
+    }
+    .headline>h3 {
+        padding-top: 2.4%;
+        text-align: center;
+        width: auto;
+    }
+    .headline {
+        padding: 5.4% 0 5.4% 0;
+    }
+    .headlineBottom>h2 {
+        width: 96%;
+    }
+    #fixed-tab-3 .mdl-grid .underlineContact {
+        width: 100%;
+        margin: auto;
+    }
+    .impressumContent {
+        padding-bottom: 310px;
+    }
+    #fixed-tab-3 img {
+        height: 100px;
+    }
+}
+
+@media (max-width: 839px) and (min-width: 480px) {
+    .mdl-cell--6-col,
+    .mdl-cell--6-col-tablet.mdl-cell--6-col-tablet {
+        width: 100%;
+    }
+    .headline>h2 {
+        width: 80%;
+    }
+    .headline>h3 {
+        padding-top: 2%;
+        text-align: center;
+        width: 50%;
+    }
+}
+
+
 /* Smartphone-Breakpoint */
 
 @media only screen and (max-width: 767px) {
@@ -206,32 +253,8 @@ img.article-image {
         width: 90%;
         margin: auto;
     }
-}
-
-
-/* Tablet-Breakpoint */
-
-@media only screen and (max-width: 1025px) {
-    .headline>h2 {
-        font-size: 2.3em;
-        text-align: center;
-    }
-    .headline>h3 {
-        padding-top: 8.4%;
-    }
-    .headline {
-        padding: 5.4% 0 5.4% 0;
-        width: 100%;
-    }
-    #fixed-tab-3 .headline>h2 {
-        width: 100%;
-    }
-    #fixed-tab-3 .mdl-grid .underlineContact {
-        width: 100%;
-        margin: auto;
-    }
-    .impressumContent {
-        padding-bottom: 310px;
+    #fixed-tab-3 img {
+        height: 100px;
     }
 }
 
@@ -240,10 +263,16 @@ img.article-image {
 
 @media only screen and (orientation: landscape) and (max-width: 1025px) {
     .headline>h2 {
-        font-size: 2.1em;
+        font-size: 2.3em;
         text-align: center;
+        width: 80%;
     }
-    .headline {
-        padding: 5.4% 8% 5.4% 8%;
+    .headline>h3 {
+        text-align: center;
+        width: 50%;
+        padding-top: 2%;
+    }
+    .headlineBottom>h2 {
+        width: 96%;
     }
 }
