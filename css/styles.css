@@ -139,6 +139,10 @@ img.article-image {
     transform-style: preserve-3d;
 }
 
+#fixed-tab-3 .mdl-grid .underlineContact p {
+    display: inline;
+}
+
 
 /* Smartphone-Breakpoint */
 
@@ -206,9 +210,6 @@ img.article-image {
     #fixed-tab-3 .mdl-grid .underlineContact {
         width: 100%;
         margin: auto;
-    }
-    #fixed-tab-3 .mdl-grid .underlineContact p {
-
     }
 }
 
