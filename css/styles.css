@@ -1,5 +1,4 @@
 footer button {
-    border-radius: 50%;
     background-size: contain;
     background-color: transparent;
     cursor: pointer;
@@ -8,6 +7,15 @@ footer button {
 footer button.github {
     background-image: url(/img/GitHub-Mark-Light-120px-plus.png);
     background-color: black;
+}
+
+footer button.xing {
+    background-image: url(/img/xing.png);
+}
+
+footer button.linkedin {
+    background-image: url(/img/In-2C-121px-TM.png);
+    background-color: transparent;
 }
 
 footer button.tumblr {
@@ -223,8 +231,8 @@ img.article-image {
         margin: auto;
     }
     .impressumContent {
-    padding-bottom: 310px;
-}
+        padding-bottom: 310px;
+    }
 }
 
 
