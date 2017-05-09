@@ -159,6 +159,10 @@ img.article-image {
     list-style-type: none;
 }
 
+.impressumContent p {
+    padding-left: 4%;
+}
+
 
 /* Tablet-Breakpoint */
 
