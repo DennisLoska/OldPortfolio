@@ -5,25 +5,25 @@ footer button {
 }
 
 footer button.github {
-    background-image: url(img/GitHub-Mark-Light-120px-plus.png);
+    background-image: url(../img/GitHub-Mark-Light-120px-plus.png);
     background-color: black;
 }
 
 footer button.xing {
-    background-image: url(img/xing.png);
+    background-image: url(../img/xing.png);
 }
 
 footer button.linkedin {
-    background-image: url(img/In-2C-121px-TM.png);
+    background-image: url(../img/In-2C-121px-TM.png);
     background-color: transparent;
 }
 
 footer button.tumblr {
-    background-image: url(img/Tumblr2.png);
+    background-image: url(../img/Tumblr2.png);
 }
 
 footer button.codepen {
-    background-image: url(img/Button-White-Large.png);
+    background-image: url(../img/Button-White-Large.png);
     background-color: black;
 }
 
